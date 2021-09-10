@@ -44,7 +44,7 @@ while count < length:
 #convert ascii code to characters
 word = "".join([chr(c) for c in password])
 
-#copy pass to clipboard
+#coping pass to clipboard
 pyperclip.copy(word)
 
 #print the result
